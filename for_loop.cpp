@@ -6,7 +6,7 @@ int main()
 {
     // Nama: Hiskia Anggi Puji Pratama
     // NIM: A11.2020.12730
-    
+
     int max_value;
 
     cout << "Program looping angka" << endl;

@@ -77,6 +77,7 @@ void destroy()
     {
         if (head != tail)
         {
+            // Proses Hapus Depan
             node = head;
             data = node->data;
             head = head->next;
@@ -87,7 +88,7 @@ void destroy()
             data = tail->data;
             head = tail = NULL;
         }
-        cout << "Deposit sebesar Rp" << data << " berhasil dihapus!";
+        cout << "Deposit sebesar Rp" << data << " berhasil dihapus!" << endl;
     }
     else
         cout << "Deposit kosong!" << endl;
